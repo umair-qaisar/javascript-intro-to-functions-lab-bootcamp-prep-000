@@ -17,16 +17,21 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-string.toLowerCase() === string
-  return "I can\'t hear you!" }
+if (string.toLowerCase() === string){
+  return "I can\'t hear you!" } else if (string.toUpperCase() === string){return "YES INDEED!"}
   
-function sayHiToGrandma(string) {
-string.toUpperCase() === string
-  return "YES INDEED!" }
-  
-function sayHiToGrandma(string) {
+
+function sayHiGhToGrandma(string) {
 string.toLowerCase() === string
   return "I can\'t hear you!" }
 
+
+if (dog === "hungry") {
+  console.log("Refilling food bowl.")
+} else if (dog === "thirsty") {
+  console.log("Refilling water bowl.")
+} else {
+  console.log("Reading newspaper.")
+}
 
  
